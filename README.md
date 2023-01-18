@@ -2,7 +2,7 @@
 
 - Title :-  EACC (Ethiopian Agricultural consultation company), ideal company that works on agricultural sector in ethiopia
 
-####     member name                      id                 section
+         member name                      id                 section
 
       - Yohannes Desta                UGR/1364/13               1
       - Betselot Kidane               UGR/8473/13               4
