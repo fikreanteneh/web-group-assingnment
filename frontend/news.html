@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+
+
+    <!-- link to font awesome -->
+
+    <!-- link to bootstrap style sheet -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+
+    <!-- link to component specific style sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <title>News</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div>
+                    <a class="z-5 navbar-brand mx-auto" href="./index.html"><img width='60px' src="./assets/logo.png"
+                            alt="This is logo Image in navigation">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">=</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul
+                        class="z-5 navbar-nav d-flex flex-column flex-lg-row align-items-center bg-light text-center position-absolute end-0 justify-content-lg-end vh-lg-100 py-5 py-lg-0">
+
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black ' href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black  ' href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black ' href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black ' href="./trade.html">Trade</a>
+                        </li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-success fw-bolder '
+                                href="./news.html">News</a>
+                        </li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black ' href="./howitworks.html">How
+                                It
+                                Works</a></li>
+                        <li class="nav-item mx-2"><a class='nav-link fs-6 text-black '
+                                href="./services.html">Services</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+        <!-- ! -->
+        <main>
+
+            <h1 class="my-4 text-center fw-bold">Latest News</h1>
+            <!-- ################## section  starts here (Latest news slider)#################-->
+
+            <div id="carouselExampleControlsNoTouching" class="news-carousel carousel slide" data-bs-touch="false">
+                <div class="carousel-inner w-75 mx-auto px-2 px-md-5">
+                    <div class="carousel-item active">
+                        <div class="news-item d-flex gap-3 justify-content-center align-items-center">
+
+                            <!-- <div class="position-relative">
+                                <img height='220px' src="./assets/news6.jpg" alt="this is lates news 1">
+
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/what-will-be-the-legacy-of-todays-young-farmer-advocates/">See
+                                        Full article</a>
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <img height='220px' src="./assets/news5.jpg" alt="this is lates news 2">
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/diversified-pastured-poultry-models-can-reduce-risk-of-hpai/">See
+                                        Full article</a></div>
+                            </div>
+                            <div class="position-relative">
+                                <img height='220px' src="./assets/news4.jpg" alt="this is lates news 3">
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/op-ed-soil-connects-us-to-the-earth/">See
+                                        Full
+                                        article</a></div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="news-item2 d-flex gap-3 justify-content-center align-items-center">
+                            <!-- <div class="position-relative">
+                                <img height='220px' src="./assets/news6.jpg" alt="this is lates news 1">
+
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/what-will-be-the-legacy-of-todays-young-farmer-advocates/">See
+                                        Full article</a>
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <img height='220px' src="./assets/news5.jpg" alt="this is lates news 2">
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/diversified-pastured-poultry-models-can-reduce-risk-of-hpai/">See
+                                        Full article</a></div>
+                            </div>
+                            <div class="position-relative">
+                                <img height='220px' src="./assets/news4.jpg" alt="this is lates news 3">
+                                <div class=" position-absolute h-50 w-100 top-50 start-0"><a
+                                        class="text-black bg-light py-2 d-block w-75 mx-auto text-center text-decoration-none"
+                                        href="https://foodtank.com/news/2022/12/op-ed-soil-connects-us-to-the-earth/">See
+                                        Full
+                                        article</a></div>
+                            </div> -->
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-success rounded-circle" aria-hidden="true"></span>
+
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-success rounded-circle" aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <!--  -->
+
+        </main>
+
+
+
+        <!-- ################## section  ends here #################-->
+
+    </header>
+
+    <!-- #### Video News section starts here -->
+    <section>
+        <div class="w-75 mx-auto">
+            <h1 class="fw-bold my-5">Latest Video News</h1>
+
+            <div class="row align-items-center justify-content-center my-4">
+                <div class="col-12 col-sm-4 order-1 order-sm-0">
+                    <span class="d-block text-end">
+
+                        Source
+
+                    </span>
+                    <span class="d-block text-end">
+                        12/12/2012
+
+                    </span>
+                </div>
+                <div class="col-12 col-sm-8 order-0 order-sm-1">
+                    <video class="w-100" controls>
+                        <source id="vid1" src="./assets/newsvideos/ETHIOPIA’S_AGRICULTURAL_DEVELOPMENT_AdobeExpress.mp4"
+                            type="video/mp4">
+                        <track for="vid1" src="./assets/newsvideos/ETHIOPIAS+AGRICULTURAL+DEVELOPMENT_en.vtt"
+                            label="English" kind="captions" srclang="en-us" default>
+                        <track src="./assets/newsvideos/ETHIOPIAS+AGRICULTURAL+DEVELOPMENT_am.vtt" label="Amharic"
+                            kind="captions" srclang="no" default>
+                    </video>
+                    <h2 class="fs-5 fw-bold my-2">Agriculture News</h2>
+                    <p>
+                        eacc is an abbreviation for ethiopian agricultural consultation company. we works on developing
+                        agricultural sector of
+                        the country. we work with most of the biggest companies in agricultural sector. our clients are
+                        effective as our slogan
+                        described it "we are here to make your farm productive." if you choose to work with
+                    </p>
+                </div>
+
+
+
+            </div>
+
+            <div class="row align-items-center justify-content-center my-4">
+                <div class="col-12 col-sm-8 order-0">
+                    <video class="w-100" controls>
+                        <source
+                            src="./assets/newsvideos/Ethiopia_s_growing_irrigation-based_agricultural_development__እያደገ_የመጣው_የመስኖ_እርሻ_ልማት_AdobeExpress.mp4"
+                            type="video/mp4">
+                        <track
+                            src="./assets/newsvideos/Ethiopias+growing+irrigation-based+agricultural+development++እያደገ+የመጣው+የመስኖ+እርሻ+ልማት_en.vtt"
+                            label="English" kind="captions" srclang="en-us" default>
+                        <track
+                            src="./assets/newsvideos/Ethiopias+growing+irrigation-based+agricultural+development++እያደገ+የመጣው+የመስኖ+እርሻ+ልማት_am.vtt"
+                            label="Amharic" kind="captions" srclang="no" default>
+                    </video>
+                    <h2 class="fs-5 fw-bold my-2">Farming</h2>
+                    <p>
+                        eacc is an abbreviation for ethiopian agricultural consultation company. we works on developing
+                        agricultural sector of
+                        the country. we work with most of the biggest companies in agricultural sector. our clients are
+                        effective as our slogan
+                        described it "we are here to make your farm productive." if you choose to work with
+                    </p>
+                </div>
+                <div class="col-12 col-sm-4 order-1">
+                    <span class="d-block text-start">
+
+                        Source
+
+                    </span>
+                    <span class="d-block text-start">
+                        12/12/2012
+
+                    </span>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- #### Video News section ends here -->
+
+    <section class="my-4 my-4">
+        <div class="w-100 px-5 mx-auto">
+            <h1 class="fs-4 fw-bold">Latest Radio News</h1>
+            <div class="d-flex flex-column gap-4 align-items-center justify-content-center">
+                <div>
+                    <audio controls>
+                        <source
+                            src="./assets/audionews/AGRICULTURAL MACHINES - Field Giants in Action _ Full Documentary.mp3"
+                            type="audio/mpeg">
+                        <track
+                            src="./assets/audionews/[English (auto-generated)] AGRICULTURAL MACHINES - Field Giants in Action _ Full Documentary [DownSub.com].vtt"
+                            label="English" kind="captions" srclang="en-us" default>
+                    </audio>
+                    <p>This is the audio one caption section</p>
+                </div>
+                <div>
+                    <audio controls>
+                        <source
+                            src="./assets/audionews/Ethiopia’s Agriculture exports & the need for more processing locally_ The case of sesame production.mp3"
+                            type="audio/mpeg" id="audio1" name="audio1">
+                        <track
+                            src="./assets/audionews/[English (auto-generated)] Ethiopia’s Agriculture exports & the need for more processing locally_ The case of sesame production [DownSub.com].vtt"
+                            label="English" for="audio1" kind="captions" srclang="en-us" default>
+                    </audio>
+                    <p>This is the audio two caption section</p>
+                </div>
+                <div>
+                    <audio controls>
+                        <source
+                            src="./assets/audionews/Ethiopian Rural Smallholder Farmers embracing Drip Irrigation Technology.mp3"
+                            type="audio/mpeg">
+                        <track
+                            src="./assets/audionews/[English (auto-generated)] Ethiopian Rural Smallholder Farmers embracing Drip Irrigation Technology [DownSub.com].vtt"
+                            label="English" kind="captions" srclang="en-us" default>
+                    </audio>
+                    <p>This is the audio three caption section</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ################## section five starts here (news letter) #################-->
+
+
+    <!-- ################## section five starts here (news letter) #################-->
+
+
+<section class="my-4">
+    <div class="w-100 bg-success px-5 py-4 border">
+        <div>
+            <h1 class="fw-bold text-white">News Letter</h1>
+
+        </div>
+        <div class="row w-100">
+            <p class="col-10 col-md-3 text-white">
+                Subscribe to Our Daily News letter. you will will be up to date with the latest information
+            </p>
+            <form class="col-10 col-md-8 d-sm-flex align-items-center news-letter was-validated">
+                <label for="email" class="display-none form-label">.</label>
+                <input required class="form-control w-75 my-2 py-1" type="text" id="email" name="Email"
+                    placeholder="Email Address">
+                <button class="bg-black px-5 py-1 text-white" type="submit">Subscribe</button>
+            </form>
+
+        </div>
+        <p class="display-none">
+            <br>
+        </p>
+    </div>
+
+
+</section>
+    <!-- ################## section five ends here #################-->
+
+
+
+    <!-- ################## section six starts here (back to top) #################-->
+
+    <section class="my-5 mx-auto"> <a
+            class="back-top d-flex align-items-center justify-content-center rounded-circle bg-success mx-auto text-white"
+            href="./news.html">
+            <p>' '</p>
+            </i>
+        </a> </section>
+    <!-- ################## section six ends here (footer) #################-->
+
+
+    <!-- ####### FOOTER starts here ####### -->
+    <footer class="pt-5 pb-4 mt-5 bg-success">
+        <div class="row w-75 mx-auto">
+            <div class="col-10 col-md mx-1">
+                <h1 class="fs-5 text-white text-center">Useful Links</h1>
+                <ul class="w-50 mx-auto mt-2">
+                    <li class="my-1 list-group-item"><a class="text-white text-decoration-none"
+                            href="./howitworks.html">How
+                            it
+                            Works</a></li>
+                    <li class="my-1 list-group-item"><a class="text-white text-decoration-none"
+                            href="./about.html">About</a></li>
+                    <li class="my-1 list-group-item"><a class="text-white text-decoration-none"
+                            href="./trade.html">Trade</a></li>
+                    <li class="my-1 list-group-item"><a class="text-white text-decoration-none"
+                            href="./news.html">News</a>
+                    </li>
+                    <li class="my-1 list-group-item"><a class="text-white text-decoration-none"
+                            href="./services.html">Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10 col-md mx-1">
+                <h1 class="fs-5 text-white text-center">Contacts</h1>
+                <ul class="w-50 mx-auto mt-2">
+                    <li class="my-1 px-2 list-group-item">
+                        <a class="text-white text-decoration-none" href="https://www.facebook.com">
+                            <span>facebook</span>
+                        </a>
+
+                    </li>
+
+                    <li class="my-1 px-2 list-group-item">
+                        <a class="text-white text-decoration-none" href="https://www.twitter.com">
+
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+
+                    <li class="my-1 px-2 list-group-item">
+                        <a class="text-white text-decoration-none" href="https://www.instagram.com">
+
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+
+                    <li class="my-1 px-2 list-group-item">
+                        <a class="text-white text-decoration-none" href="https://https://mail.google.com/">
+
+                            <span>Email</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-10 col-md mx-1 ">
+                <h1 class="fs-5 text-white text-center">Address</h1>
+                <ul class="w-50 mx-auto mt-2">
+                    <li class="text-white text-decoration-none my-1 px-2 list-group-item">Ethiopia</li>
+                    <li class="text-white text-decoration-none my-1 px-2 list-group-item">Addis Ababa</li>
+                    <li class="text-white text-decoration-none my-1 px-2 list-group-item">4kilo, Niger Street</li>
+
+                </ul>
+            </div>
+        </div>
+        <img class="d-block mx-auto mt-4 rounded-circle" src="./assets/logo.png" width="90px" alt="this is the logo">
+        <h1 class="fw-bold text-white text-center my-3">EACC</h1>
+        <p class="text-white text-center fs-6 mb-0">@copyright reserved 2022</p>
+
+
+
+    </footer>
+    <!-- ####### FOOTER ends here ####### -->
+    <!-- bootstrap script -->
+    <script type="module" src="./js/news.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+
+</body>
+
+</html>

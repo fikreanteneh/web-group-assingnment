@@ -1,0 +1,42 @@
+/* background images */
+.howitworks-intro,
+.trade-intro,
+.service-intro {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.trade-intro {
+  background-image: url("./assets/consultE.jpeg");
+  height: 68vh;
+}
+
+.howitworks-intro {
+  background-image: url("./assets/bg1.jpeg");
+  height: 70vh;
+}
+.service-intro {
+  background-image: url("./assets/bg4.jpeg");
+  height: 55vh;
+}
+
+/*  */
+.testimony-text {
+  width: 300px !important;
+}
+.back-top {
+  width: 3rem;
+  height: 3rem;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+/* this is due to a design that is deferent from most of bootstrap navbar styles in mobile view */
+@media screen and (0<width<=992px) {
+  .navbar-collapse > ul {
+    width: 100%;
+  }
+}

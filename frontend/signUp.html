@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <section class="vh-100 pt-5">
+        <div class="container h-custom p-5 mt-5 shadow">
+            <p class="h1 mb-3">Sign up</p>
+            <hr>
+          <div class="row d-flex justify-content-center align-items-center h-100 my-sm-4 py-sm-5">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+              <img src="./Logo.jpg"
+                class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+              <form id="formSignup" method="post">
+                <div class="form-outline mb-4">
+                    <label class="form-label fs-4" for="email">Email address</label>
+                    <input name="email" type="email" id="email" class="form-control form-control-lg"
+                    placeholder="Enter a valid email address" />
+                </div>
+      
+            
+                <div class="form-outline mb-3">
+                    <label class="form-label fs-4" for="password">Password</label>
+                  <input name="password" type="password" id="password" class="form-control form-control-lg"
+                    placeholder="Enter password" />
+                </div>
+                <p id="message" class="fs-4 text-danger text-center mt-2 pt-1 mb-0"></p>
+
+
+                <div class="text-center text-lg-start mt-4 pt-2">
+                    <button type="submit" class="btn btn-success btn-lg ms-2" id="signUp">Signup</button>
+                  </div>
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+    <script src="./bootstrap.min.js"></script>
+    <script src="./FetchApi/auth/signUp.js"></script>
+</body>
+</html>
